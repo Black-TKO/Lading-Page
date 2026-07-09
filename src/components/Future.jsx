@@ -2,16 +2,13 @@ export default function Future() {
   return (
     <section id="futuro" className="py-16 sm:py-24 bg-[#003D6A] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="mb-12 sm:mb-16 text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 font-inter">
             O Futuro Está em Suas Mãos
           </h2>
         </div>
 
-        {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start">
-          {/* Left - Text Content */}
           <div>
             <div className="space-y-6">
               <div>
@@ -43,7 +40,6 @@ export default function Future() {
             </div>
           </div>
 
-          {/* Right - Call to Action */}
           <div className="bg-gradient-to-br from-[#F5B422] to-yellow-500 rounded-2xl p-8 sm:p-12 text-[#003D6A]">
             <h3 className="text-3xl sm:text-4xl font-bold font-inter mb-6">
               Junte-se ao Movimento

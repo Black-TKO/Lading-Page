@@ -32,7 +32,6 @@ export default function Universe() {
   return (
     <section id="universo" className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="mb-12 sm:mb-16 text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#003D6A] mb-4 font-inter">
             Conheça o Nosso Universo
@@ -42,7 +41,6 @@ export default function Universe() {
           </p>
         </div>
 
-        {/* About Section */}
         <div className="mb-16 sm:mb-20 p-6 sm:p-8 bg-gradient-to-r from-[#003D6A] to-blue-700 rounded-2xl">
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             <div className="flex-shrink-0">
@@ -61,7 +59,6 @@ export default function Universe() {
           </div>
         </div>
 
-        {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           {products.map((product) => (
             <div

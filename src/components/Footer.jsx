@@ -3,7 +3,6 @@ export default function Footer() {
     <footer className="bg-[#003D6A] text-white py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-8">
-          {/* About */}
           <div>
             <h4 className="text-lg font-bold font-inter mb-4">Sobre o Lume</h4>
             <p className="text-sm sm:text-base text-gray-300 font-roboto">
@@ -11,7 +10,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Links */}
           <div>
             <h4 className="text-lg font-bold font-inter mb-4">Navegação</h4>
             <ul className="space-y-2 text-sm sm:text-base text-gray-300 font-roboto">
@@ -22,7 +20,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Products */}
           <div>
             <h4 className="text-lg font-bold font-inter mb-4">Plataformas</h4>
             <ul className="space-y-2 text-sm sm:text-base text-gray-300 font-roboto">
@@ -32,7 +29,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-lg font-bold font-inter mb-4">Contato</h4>
             <p className="text-sm sm:text-base text-gray-300 font-roboto mb-2">
@@ -44,9 +40,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
         <div className="border-t border-gray-700 pt-8">
-          {/* Bottom Section */}
           <div className="flex flex-col sm:flex-row justify-between items-center text-sm sm:text-base text-gray-400 font-roboto">
             <p>
               Copyright 2024 Lume. Todos os direitos reservados.
